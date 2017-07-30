@@ -1,0 +1,19 @@
+.body {
+	text-align: center;
+	background-image: url('gaming-pattern/gaming-pattern.png');
+}
+
+/*[class*="col-"] {
+    background-clip: padding-box;
+    border: 10px solid transparent;
+}*/
+
+#page-content {
+	margin: 20px;
+	border: solid 1px lightgrey;
+}
+
+#page-aside {
+	margin: 20px;
+	border: solid 1px lightgrey;	
+}
