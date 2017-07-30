@@ -1,12 +1,22 @@
-.body {
+
+body {
 	text-align: center;
-	background-image: url('gaming-pattern/gaming-pattern.png');
+	background: url('gaming-pattern/gaming-pattern.png');
+
 }
 
-/*[class*="col-"] {
-    background-clip: padding-box;
-    border: 10px solid transparent;
-}*/
+.col-lg-7, .col-lg-4 {
+	background-color: white;
+}
+
+
+
+
+#my-profile-image {
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
 
 #page-content {
 	margin: 20px;
@@ -17,3 +27,23 @@
 	margin: 20px;
 	border: solid 1px lightgrey;	
 }
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  border-top: solid 5px teal;
+  padding-top: 10px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
